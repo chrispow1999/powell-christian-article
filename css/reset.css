@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display|Roboto+Mono&display=swap');
+
+/*
+COLORS:
+mid grey: 5B5B5B
+light grey/background: 7D7C7A
+dark grey/color: 313139
+blue:00798C
+cream:C9C19F
+
+FONTS:
+DM Serif Display, serif
+Roboto Mono, monospace
+*/
+
+body{
+  background-color: #7D7C7A;
+  color: #313139;
+  font-size: 1em;
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Roboto Mono',Arial, Helvetica, sans-serif;
+  line-height: 1.5
+  
+  /*
+  or shortcut is font: normal normal 1em/1.5 'Roboto Mono' ,Arial, Helvetica, sans-serif; 
+  */
+}  
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'DM Serif Display', serif;
+font-weight: 700;
+}
+
+h1{font-size: 2em;
+  line-height: 1;
+}
+
+h2{font-size: 1.6em}
+
+h3{font-size: 1.4em}
+
+.horizontal-rule{  
+  border-bottom: 0.125em solid #5B5B5B;
+  padding-bottom: 0.25em
+}
